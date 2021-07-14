@@ -5,14 +5,16 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
   width: 1200px;
   background-color: #fff;
-  margin: 40 px auto;
+  margin: 40px auto;
   box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
 }
 .main-content-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .about-me-section {
   width: 400px;
@@ -155,13 +157,12 @@ body {
 }
 .sidebar-section {
   background-color: #1e2939;
-  width: 370;
+  width: 370px;
   /* height: 95%; */
-  padding-top: 40px 0 40 40;
+  padding: 10px 10px 40px 10px;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  /* height: 100%; */
 }
 .sidebar-title {
   font-style: normal;
@@ -171,7 +172,7 @@ body {
   color: #fff;
   margin-left: 10px;
 }
-.foto {
+.photo {
   width: 370px;
   height: 354px;
   left: 40px;
@@ -184,6 +185,7 @@ body {
   line-height: 24px;
   color: #fff;
   margin-right: 7px;
+  margin-left: 10px;
 }
 .contact-section-link-phon {
   color: #565e6a;
@@ -200,6 +202,11 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
-.tech-skills-item {
+.contact-section-link-phon:hover,
+.contact-section-link-email:hover {
+  color: #56ddfa;
+}
+.tech-skills-item,
+.soft-skills-item {
   color: #fb6d3a;
 }
